@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #3e65fe;
+}
+.logoBox{
+  background-color: white;
+  padding: 30px 120px;
+  width: 610px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.twitterLogo{
+  width: 3rem;
+  margin-bottom: 20px;
+}
+.headTwit{
+  margin-bottom: 20px;
+}
+.logoBox button {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #999;
+  font-weight: 530;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logoBox button img{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.logoBox span{
+  display: block;
+  width: 40px;
+  margin: auto;
+  background: #fff;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.logoBox input{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  padding: 15px 10px;
+  border-radius: 4px;
+  outline: 0;
+  margin-top: 9px;
+}
+
+::placeholder{
+  font-weight: 500;
+  color: #333;
+}
+
+.logoBox form button{
+  background: #000;
+  color: #fff;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.logoBox p{
+  font-size: 14px;
+  color: #555;
+  margin: 40px 0px 50px;
+}
+
+.logoBox p a{
+  text-decoration: none;
+  color: #359cf0;
+  margin-left: 100px;
+}
